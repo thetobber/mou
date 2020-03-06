@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TextField?>
+
+<fx:root type="javafx.scene.control.TextField" xmlns:fx="http://javafx.com/fxml">
+    <style>
+        -fx-pref-height: 40;
+        -fx-min-height: 40;
+        -fx-max-height: 40;
+        -fx-background-radius: 0;
+        -fx-border-radius: 0;
+    </style>
+</fx:root>
