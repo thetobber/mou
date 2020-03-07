@@ -1,34 +1,31 @@
 package dk.ruc;
 
+import dk.ruc.views.MouConnect;
 import io.reactivex.rxjava3.subjects.PublishSubject;
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 public class App extends Application {
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage stage) {
         stage.setTitle("Mou");
 
-        final PublishSubject<String> subject = PublishSubject.create();
+        final PublishSubject<String> store = PublishSubject.create();
 
-        final var layout = new AnchorPane(){{
-            final var channel = new Channel(subject);
-            setTopAnchor(channel, 0.0);
-            setRightAnchor(channel, 0.0);
-            setBottomAnchor(channel, 40.0);
-            setLeftAnchor(channel, 0.0);
+        stage.setIconified(false);
 
-            final var messageInput = new MessageInput(subject);
-            setRightAnchor(messageInput, 0.0);
-            setBottomAnchor(messageInput, 0.0);
-            setLeftAnchor(messageInput, 0.0);
+        final var scene = new Scene(
+            new BorderPane(
+                new MouConnect()
+            ),
+            800,
+            400
+        );
 
-            getChildren().addAll(channel, messageInput);
-        }};
-
-        final var scene = new Scene(layout, 800, 400);
+        scene.getStylesheets().clear();
+        scene.getStylesheets().add("Style.css");
 
         stage.setScene(scene);
         stage.show();

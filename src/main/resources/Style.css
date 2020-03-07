@@ -45,58 +45,81 @@
 --deprecated-text-input-prefix: #dcddde;
 */
 
-.main {
+.root {
     -fx-background-color: #36393f;
 }
 
-.label {
+/*************************************/
+/**** VIEWS **************************/
+/*************************************/
+
+.mou-connect, .mou-host {
+    -fx-fill-width: true;
+    -fx-alignment: center;
+    -fx-min-width: 320;
+    -fx-pref-width: 320;
+    -fx-max-width: 320;
+}
+
+/*************************************/
+/**** COMPONENTS *********************/
+/*************************************/
+
+.mou-label, .mou-title, .mou-sub-title, .mou-text-field, .mou-button {
+    -fx-pref-width: -1;
+    -fx-max-width: Infinity;
+}
+
+.mou-logo {
+    -fx-fill: radial-gradient(focus-angle -129deg, focus-distance -7%, center 50% 21%, radius 80%, reflect, #a4b9ff, #a4b9ff 0.77%, #7289da 100%);
+    -fx-effect: dropshadow(gaussian, #000, 4.5, 0, 0, 0);
+}
+
+.mou-label {
     -fx-text-fill: #8e9297;
     -fx-font-size: 12;
     -fx-font-weight: bold;
 }
 
-.label.title {
+.mou-title {
     -fx-text-fill: #fff;
     -fx-font-size: 26;
     -fx-font-weight: normal;
 }
 
-.label.sub-title {
+.mou-sub-title {
     -fx-text-fill: #b9bbbe;
     -fx-font-size: 18;
     -fx-font-weight: normal;
 }
 
-.text-field {
+.mou-text-field {
     -fx-padding: 10;
     -fx-min-height: 40;
     -fx-pref-height: 40;
-
     -fx-background-color: rgba(0, 0, 0, 0.1);
     -fx-background-radius: 3;
-
     -fx-border-color: rgba(0, 0, 0, 0.3);
     -fx-border-width: 1;
     -fx-border-radius: 3;
-
     -fx-text-fill: #dcddde;
-
-
 }
 
-.text-field:hover {
+.mou-text-field:hover {
     -fx-border-color: #040405;
 }
 
-.text-field:focused {
+.mou-text-field:focused {
     -fx-border-color: #7289da;
 }
 
-.button {
+.mou-button {
     -fx-background-color: #7289da;
     -fx-background-radius: 3;
 
+    -fx-alignment: center;
     -fx-text-fill: #fff;
+
     -fx-font-size: 16;
     -fx-font-weight: bold;
 
@@ -108,14 +131,14 @@
     -fx-cursor: hand;
 }
 
-.button:hover {
+.mou-button:hover {
     -fx-background-color: #677bc4;
 }
 
-.button:pressed {
+.mou-button:pressed {
     -fx-background-color: #5b6eae;
 }
 
-.button:disabled {
+.mou-button:disabled {
     -fx-cursor: default;
 }
