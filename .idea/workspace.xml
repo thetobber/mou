@@ -2,25 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f461b57f-28fe-480c-8768-f34ce08c054f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouLabel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouLogo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouSubTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouTextField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/views/MouConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/views/MouHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/ChannelView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/ConnectView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/MessageModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/RouteModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ChannelView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ChannelView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ConnectView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ConnectView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cssdialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/Channel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/ConnectController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/MessageInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Channel.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Connect.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Message.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MessageInput.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouLabel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouLogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouSubTitle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouTextField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouTitle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/views/MouConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/views/MouHost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +35,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="CSS File" />
-        <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="pLaGuzyk" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -66,7 +73,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -188,7 +195,10 @@
       <workItem from="1583258413971" duration="11963000" />
       <workItem from="1583339780353" duration="8557000" />
       <workItem from="1583510589648" duration="1082000" />
-      <workItem from="1583513473095" duration="20435000" />
+      <workItem from="1583513473095" duration="21918000" />
+      <workItem from="1583591869469" duration="4193000" />
+      <workItem from="1583603762726" duration="7782000" />
+      <workItem from="1583630067535" duration="8348000" />
     </task>
     <servers />
   </component>
@@ -207,10 +217,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="450" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1583192423846" />
-    <state x="1041" y="342" key="#com.intellij.ide.util.MemberChooser" timestamp="1583536910347">
+    <state x="1041" y="342" key="#com.intellij.ide.util.MemberChooser" timestamp="1583637815030">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1041" y="342" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1583536910347" />
+    <state x="1041" y="342" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1583637815030" />
     <state x="980" y="522" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583526655054">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -219,41 +229,49 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="381" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1583339936651" />
-    <state width="2505" height="165" key="GridCell.Tab.0.bottom" timestamp="1583544170732">
+    <state width="2505" height="370" key="GridCell.Tab.0.bottom" timestamp="1583638426008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="165" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583544170732" />
-    <state width="2505" height="165" key="GridCell.Tab.0.center" timestamp="1583544170731">
+    <state width="2505" height="370" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583638426008" />
+    <state width="2505" height="370" key="GridCell.Tab.0.center" timestamp="1583638426008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="165" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583544170731" />
-    <state width="2505" height="165" key="GridCell.Tab.0.left" timestamp="1583544170731">
+    <state width="2505" height="370" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583638426008" />
+    <state width="2505" height="370" key="GridCell.Tab.0.left" timestamp="1583638426008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="165" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583544170731" />
-    <state width="2505" height="165" key="GridCell.Tab.0.right" timestamp="1583544170732">
+    <state width="2505" height="370" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583638426008" />
+    <state width="2505" height="370" key="GridCell.Tab.0.right" timestamp="1583638426008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="165" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583544170732" />
-    <state width="2505" height="477" key="GridCell.Tab.1.bottom" timestamp="1583537885501">
+    <state width="2505" height="370" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583638426008" />
+    <state width="2505" height="477" key="GridCell.Tab.1.bottom" timestamp="1583636780282">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="477" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583537885501" />
-    <state width="2505" height="477" key="GridCell.Tab.1.center" timestamp="1583537885501">
+    <state width="2505" height="477" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583636780281" />
+    <state width="2505" height="477" key="GridCell.Tab.1.center" timestamp="1583636780281">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="477" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583537885501" />
-    <state width="2505" height="477" key="GridCell.Tab.1.left" timestamp="1583537885501">
+    <state width="2505" height="477" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583636780281" />
+    <state width="2505" height="477" key="GridCell.Tab.1.left" timestamp="1583636780281">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="477" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583537885501" />
-    <state width="2505" height="477" key="GridCell.Tab.1.right" timestamp="1583537885501">
+    <state width="2505" height="477" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583636780281" />
+    <state width="2505" height="477" key="GridCell.Tab.1.right" timestamp="1583636780281">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="477" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583537885501" />
-    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1583201027159">
+    <state width="2505" height="477" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583636780281" />
+    <state x="1041" y="313" key="SettingsEditor" timestamp="1583592352406">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1583201027159" />
+    <state x="1041" y="313" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1583592352406" />
+    <state x="788" y="224" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583637361447">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="788" y="224" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1583637361447" />
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1583635478209">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1583635478209" />
   </component>
 </project>

@@ -1,31 +1,35 @@
 package dk.ruc;
 
-import dk.ruc.views.MouConnect;
 import io.reactivex.rxjava3.subjects.PublishSubject;
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 public class App extends Application {
+    private PublishSubject<Object> store = Store.getInstance();
+
     @Override
     public void start(Stage stage) {
         stage.setTitle("Mou");
 
-        final PublishSubject<String> store = PublishSubject.create();
+        final var connectView = new ConnectView();
+        final var channelView = new ChannelView();
 
-        stage.setIconified(false);
+        final var scene = new Scene(connectView, 640, 480);
 
-        final var scene = new Scene(
-            new BorderPane(
-                new MouConnect()
-            ),
-            800,
-            400
-        );
+        // Not sure if it is properly disposed??
+        store.subscribe(object -> {
+            if (object instanceof RouteModel) {
+                final var route = (RouteModel) object;
 
-        scene.getStylesheets().clear();
-        scene.getStylesheets().add("Style.css");
+                if (route.getRouteName().equals("ChannelView")) {
+                    scene.setRoot(channelView);
+                }
+                else {
+                    scene.setRoot(connectView);
+                }
+            }
+        });
 
         stage.setScene(scene);
         stage.show();

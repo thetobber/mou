@@ -1,0 +1,74 @@
+.root {
+    -fx-background-color: #36393f;
+    -fx-font-size: 16;
+}
+
+.label, .text-field, .button {
+    -fx-pref-width: -1;
+    -fx-max-width: Infinity;
+}
+
+/*************************************/
+/**** SCROLL-PANE ********************/
+/*************************************/
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+.scroll-pane .scroll-bar:horizontal,
+.scroll-pane .scroll-bar:vertical {
+    -fx-background-color: #2e3338;
+    -fx-background-insets: 0;
+    -fx-background-radius: 4;
+}
+.scroll-pane .scroll-bar:horizontal {
+    -fx-pref-height: 8;
+    -fx-padding: 0 -6 0 -6;
+}
+.scroll-pane .scroll-bar:vertical {
+    -fx-pref-width: 8;
+    -fx-padding: -6 0 -6 0;
+}
+.scroll-pane .scroll-bar .increment-arrow,
+.scroll-pane .scroll-bar .decrement-arrow,
+.scroll-pane .scroll-bar .increment-arrow:hover,
+.scroll-pane .scroll-bar .decrement-arrow:hover {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+}
+.scroll-pane .scroll-bar .thumb {
+    -fx-background-color: #202225;
+    -fx-background-insets: 0;
+    -fx-background-radius: 4;
+}
+.scroll-pane .corner {
+    -fx-background-color: transparent;
+}
+
+/*************************************/
+/**** BUTTON *************************/
+/*************************************/
+.button {
+    -fx-background-color: #7289da;
+    -fx-background-radius: 3;
+    -fx-alignment: center;
+    -fx-text-fill: #fff;
+    -fx-font-weight: bold;
+    -fx-padding: 2 16;
+    -fx-min-width: 130;
+    -fx-min-height: 44;
+    -fx-pref-height: 44;
+    -fx-max-height: 44;
+    -fx-cursor: hand;
+}
+.button:hover {
+    -fx-background-color: #677bc4;
+}
+.button:pressed {
+    -fx-background-color: #5b6eae;
+}
+.button:disabled {
+    -fx-cursor: default;
+}

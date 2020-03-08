@@ -1,0 +1,20 @@
+/*************************************/
+/**** LABEL **************************/
+/*************************************/
+.label {
+    -fx-text-fill: #dcddde;
+    -fx-wrap-text: true;
+}
+
+/*************************************/
+/**** TEXT-FIELD *********************/
+/*************************************/
+.text-field {
+    -fx-padding: 8;
+    -fx-min-height: 44;
+    -fx-pref-height: 44;
+    -fx-max-height: 44;
+    -fx-background-color: #40444b;
+    -fx-background-radius: 8;
+    -fx-text-fill: #dcddde;
+}
