@@ -11,30 +11,33 @@
 <?import javafx.scene.text.Font?>
 
 <fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="javafx.scene.layout.VBox" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
-    <padding>
-        <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
-    </padding>
     <stylesheets>
         <URL value="@Global.css" />
         <URL value="@ChannelView.css" />
     </stylesheets>
-   <BorderPane VBox.vgrow="NEVER">
+   <BorderPane styleClass="border-pane" VBox.vgrow="NEVER">
       <right>
          <Button mnemonicParsing="false" onMouseClicked="#handleDisconnect" text="Disconnect" BorderPane.alignment="CENTER" />
       </right>
       <left>
-         <Label text="#channel-name" BorderPane.alignment="CENTER">
+         <Label text="#channel-name" BorderPane.alignment="CENTER_LEFT">
             <font>
-               <Font size="26.0" />
+               <Font size="18.0" />
             </font>
+            <BorderPane.margin>
+               <Insets />
+            </BorderPane.margin>
          </Label>
       </left>
    </BorderPane>
     <ScrollPane fx:id="scrollPane" fitToWidth="true" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
         <VBox.margin>
-            <Insets bottom="16.0" />
+            <Insets />
         </VBox.margin>
         <VBox fx:id="vBox" />
     </ScrollPane>
-    <TextField onKeyPressed="#handleSend" VBox.vgrow="NEVER" />
+    <TextField onKeyPressed="#handleSend" VBox.vgrow="NEVER">
+      <VBox.margin>
+         <Insets bottom="16.0" left="16.0" right="16.0" />
+      </VBox.margin></TextField>
 </fx:root>

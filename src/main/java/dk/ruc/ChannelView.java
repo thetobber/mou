@@ -3,11 +3,13 @@ package dk.ruc;
 import io.reactivex.rxjava3.subjects.PublishSubject;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.geometry.Insets;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import java.io.IOException;
 import java.time.Instant;
@@ -38,8 +40,6 @@ public class ChannelView extends VBox {
             throw new RuntimeException(exception);
         }
 
-        setSpacing(8);
-
         // Scroll to bottom when a new message is added
         vBox.heightProperty().addListener(observable -> {
             scrollPane.setVvalue(1);
@@ -64,14 +64,16 @@ public class ChannelView extends VBox {
                         )
                     );
 
-                final var labelText = String.format(
-                    "%s\t%s\n%s",
-                    message.getDisplayName(),
-                    dateTime,
-                    message.getText()
+                final var messageLabel = new Label(
+                    String.format(
+                        "%s\t%s\n%s",
+                        message.getDisplayName(),
+                        dateTime,
+                        message.getText()
+                    )
                 );
 
-                vBox.getChildren().add(new Label(labelText));
+                vBox.getChildren().add(messageLabel);
             }
         });
     }

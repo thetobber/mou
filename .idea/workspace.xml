@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f461b57f-28fe-480c-8768-f34ce08c054f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/ChannelView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/ConnectView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/MessageModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/RouteModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ChannelView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ChannelView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ConnectView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ConnectView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cssdialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouLabel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouLogo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouSubTitle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouTextField.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/components/MouTitle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/views/MouConnect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/views/MouHost.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/ChannelView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/ChannelView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ChannelView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ChannelView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ChannelView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ChannelView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +180,7 @@
       <workItem from="1583513473095" duration="21918000" />
       <workItem from="1583591869469" duration="4193000" />
       <workItem from="1583603762726" duration="7782000" />
-      <workItem from="1583630067535" duration="8348000" />
+      <workItem from="1583630067535" duration="10817000" />
     </task>
     <servers />
   </component>
@@ -229,22 +211,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="381" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1583339936651" />
-    <state width="2505" height="370" key="GridCell.Tab.0.bottom" timestamp="1583638426008">
+    <state width="2505" height="370" key="GridCell.Tab.0.bottom" timestamp="1583640677986">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="370" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583638426008" />
-    <state width="2505" height="370" key="GridCell.Tab.0.center" timestamp="1583638426008">
+    <state width="2505" height="370" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583640677986" />
+    <state width="2505" height="370" key="GridCell.Tab.0.center" timestamp="1583640677986">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="370" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583638426008" />
-    <state width="2505" height="370" key="GridCell.Tab.0.left" timestamp="1583638426008">
+    <state width="2505" height="370" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583640677986" />
+    <state width="2505" height="370" key="GridCell.Tab.0.left" timestamp="1583640677985">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="370" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583638426008" />
-    <state width="2505" height="370" key="GridCell.Tab.0.right" timestamp="1583638426008">
+    <state width="2505" height="370" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583640677985" />
+    <state width="2505" height="370" key="GridCell.Tab.0.right" timestamp="1583640677986">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="370" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583638426008" />
+    <state width="2505" height="370" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583640677986" />
     <state width="2505" height="477" key="GridCell.Tab.1.bottom" timestamp="1583636780282">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
