@@ -15,7 +15,7 @@ public class App extends Application {
         final var connectView = new ConnectView();
         final var channelView = new ChannelView();
 
-        final var scene = new Scene(connectView, 640, 480);
+        final var scene = new Scene(connectView, 840, 680);
 
         // Not sure if it is properly disposed??
         store.subscribe(object -> {

@@ -59,6 +59,7 @@
     -fx-font-weight: bold;
     -fx-padding: 2 16;
     -fx-min-width: 130;
+    -fx-max-width: Infinity;
     -fx-min-height: 44;
     -fx-pref-height: 44;
     -fx-max-height: 44;
