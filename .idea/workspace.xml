@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f461b57f-28fe-480c-8768-f34ce08c054f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/EchoServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dk/ruc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/ruc/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ChannelView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ChannelView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ConnectView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ConnectView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +63,39 @@
       <recent name="C:\Users\Tobias\Desktop\mou\mou\src\main\java\dk\ruc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.EchoClient">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dk.ruc.App" />
       <module name="mou" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dk.ruc.components.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.ruc.EchoClient" />
+      <module name="mou" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.ruc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.ruc.EchoServer" />
+      <module name="mou" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.ruc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,7 +185,15 @@
       <item itemvalue="Application.App" />
       <item itemvalue="Maven.Run" />
       <item itemvalue="Maven.Build" />
+      <item itemvalue="Application.EchoServer" />
+      <item itemvalue="Application.EchoClient" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -183,6 +216,7 @@
       <workItem from="1583630067535" duration="10884000" />
       <workItem from="1583688751587" duration="1210000" />
       <workItem from="1583707645554" duration="1199000" />
+      <workItem from="1583737075707" duration="8040000" />
     </task>
     <servers />
   </component>
@@ -201,10 +235,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="450" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1583192423846" />
-    <state x="1041" y="342" key="#com.intellij.ide.util.MemberChooser" timestamp="1583637815030">
+    <state x="1041" y="342" key="#com.intellij.ide.util.MemberChooser" timestamp="1583742592495">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1041" y="342" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1583637815030" />
+    <state x="1041" y="342" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1583742592495" />
     <state x="980" y="522" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583526655054">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -213,22 +247,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="381" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1583339936651" />
-    <state width="2505" height="370" key="GridCell.Tab.0.bottom" timestamp="1583689961647">
+    <state width="2505" height="370" key="GridCell.Tab.0.bottom" timestamp="1583745108566">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="370" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583689961647" />
-    <state width="2505" height="370" key="GridCell.Tab.0.center" timestamp="1583689961647">
+    <state width="2505" height="370" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1583745108566" />
+    <state width="2505" height="370" key="GridCell.Tab.0.center" timestamp="1583745108566">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="370" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583689961647" />
-    <state width="2505" height="370" key="GridCell.Tab.0.left" timestamp="1583689961647">
+    <state width="2505" height="370" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1583745108566" />
+    <state width="2505" height="370" key="GridCell.Tab.0.left" timestamp="1583745108566">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="370" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583689961647" />
-    <state width="2505" height="370" key="GridCell.Tab.0.right" timestamp="1583689961647">
+    <state width="2505" height="370" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1583745108566" />
+    <state width="2505" height="370" key="GridCell.Tab.0.right" timestamp="1583745108566">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2505" height="370" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583689961647" />
+    <state width="2505" height="370" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1583745108566" />
     <state width="2505" height="477" key="GridCell.Tab.1.bottom" timestamp="1583640959737">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
